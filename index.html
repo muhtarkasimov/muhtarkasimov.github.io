@@ -8,13 +8,29 @@
 </head>
 <body onLoad="initClock()">
 
-<div id="timedate">
-    <a id="d">1</a>
-    <a id="mon">January</a>,
-    <a id="y">0</a><br/>
-    <a id="h">12</a> :
-    <a id="m">00</a>:
-    <a id="s">00</a>
+<canvas class="game"></canvas>
+<div id="controls">
+    <div>
+        <button id="forward">▲</button>
+        <button id="left">◀</button>
+        <button id="backward">▼</button>
+        <button id="right">▶</button>
+    </div>
+</div>
+<div id="score">0</div>
+<div id="result-container">
+    <div id="result">
+        <h1>Game Over</h1>
+        <p>Your score: <span id="final-score"></span></p>
+        <button id="retry">Retry</button>
+    </div>
+</div>
+
+<a id="youtube" target="_top" href="https://youtu.be/vNr3_hQ3Bws">
+    <span>Learn Three.js while building this game on YouTube</span>
+</a>
+<div id="youtube-card">
+    Learn Three.js while building this game on YouTube
 </div>
 </body>
 </html>
